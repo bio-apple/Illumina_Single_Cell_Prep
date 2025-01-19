@@ -12,11 +12,27 @@
 
 # 3.数据预处理PIPseeker(以后可能不再更新) or DRAGEN single Cell RNA App v4.4
 
+[PIPseeker-v3.3-User-Guide.pdf](./PIPseeker/PIPseeker-v3.3-User-Guide.pdf)
+
+输出文件：
+
+<output path>/metrics/barcode_stats.csv:
+<output path>/metrics/barcodes/barcode_whitelist.txt
+<output path>/metrics/barcodes/generated_barcode_read_info_table.csv
+<output path>/barcoded_fastqs/*Intermediate FASTQ file(s)
+
+The raw matrix is contained in the files: matrix.mtx.gz, barcodes.tsv.gz and features.tsv.gz,
+all inside <output path>/raw_matrix. The format of the matrix is compatible with standard downstream analysis tools, e.g., Seurat.
+
 # 4.高级分析Partek Flow software
+
+关于Partek Flow：https://sapac.illumina.com/products/by-type/informatics-products/partek-flow.html
+
+[Best Practices for Agilent PartekFlow Paired-end RNASeq Pipelines.pdf](./PartekFlow/Best_Practices_for_Agilent_PartekFlow_Paired-end_RNASeq_Pipelines.pdf)
 
 # 5.数据预处理PIPseeker_Report.html报告模版
 
-[PIPseeker_Report](./PIPseeker_Report.html)
+[PIPseeker_Report](./PIPseeker/PIPseeker_Report.html)
 
 # 6.单细胞测序商业化产品评估
 
@@ -25,6 +41,7 @@
 # 7.测序读长
 
 read 1:at least 45 cycles
+
 read 2:at least 72 cycles
 
 # 8.文库结构
@@ -51,4 +68,18 @@ NovaSeq X Series final library loading concentration 190 - 200 pM including ≥ 
 
 ![Single-Cell_Isoform_Sequencing_of_Fluent_Libraries_with_MAS-seq](./Single-Cell_Isoform_Sequencing_of_Fluent_Libraries_with_MAS-seq.png)
 
+# 12.PIPSeeker参考基因组构建
 
+PIPseeker utilizes the STAR package for read alignment. Custom references can be built with STAR v2.7.4a or greater using the --runMode genomeGenerate option, as described in the STAR manual.
+
+[details:Instructions for Creating Custom PIPseeker™ References](./PIPInstructions-for-Creating-Custom-PIPseeker-References-1.pdf)
+
+# 13.经典文章链接
+
+[Clark I C, Fontanez K M, Meltzer R H, et al. Microfluidics-free single-cell genomics with templated emulsification[J]. Nature Biotechnology, 2023, 41(11): 1557-1566.](https://www.nature.com/articles/s41587-023-01685-z)
+
+# 14.基于最新的PIPseqTM V发表的文章
+
+![PIPseqTM V](./PIPseqTM_V.jpg)
+
+[Fontanez K, Agam Y, Bevans S, et al. Intrinsic molecular identifiers enable robust molecular counting in single-cell sequencing[J]. bioRxiv, 2024: 2024.10. 04.616561.](https://www.biorxiv.org/content/10.1101/2024.10.04.616561v1.full)
