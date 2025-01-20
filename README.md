@@ -56,6 +56,8 @@ The raw matrix is contained in the files:**matrix.mtx.gz**、**barcodes.tsv.gz**
 
 个人理解：read 1:3-base “binning index” (BI）+read 2:Intrinsic Molecular Identifiers (IMIs)  总称为原先的UMI用来去掉PCR冗余带来的影响
 
+IMIs 就是在文库制备PCR之前加入随机位点的剪切酶，这样对于一个转录本4个拷贝的时候，通过随机剪切酶，然后会切到不同的位置，从而会得到不同的read2 
+
 ![UMI](./UMI.png)
 
 DRAGEN数据分析参考链接：https://help.dragen.illumina.com/product-guides/dragen-v4.4/dragen-single-cell-pipeline/dragen-scrna-pipseq
