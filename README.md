@@ -80,7 +80,7 @@ PIPseeker utilizes the STAR package for read alignment. Custom references can be
 
 [Clark I C, Fontanez K M, Meltzer R H, et al. Microfluidics-free single-cell genomics with templated emulsification[J]. Nature Biotechnology, 2023, 41(11): 1557-1566.](https://www.nature.com/articles/s41587-023-01685-z)
 
-# 14.基于最新的PIPseqTM V发表的文章
+# 14.基于最新的PIPseq V发表的文章
 
 ![PIPseqTM V](./PIPseqTM_V.jpg)
 
