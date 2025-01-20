@@ -16,12 +16,22 @@
 
 输出文件：
 
-<output path>/metrics/barcode_stats.csv:
+<output path>/metrics/barcode_stats.csv
+
 <output path>/metrics/barcodes/barcode_whitelist.txt
+
 <output path>/metrics/barcodes/generated_barcode_read_info_table.csv
+
 <output path>/barcoded_fastqs/*Intermediate FASTQ file(s)
 
-The raw matrix is contained in the files: matrix.mtx.gz, barcodes.tsv.gz and features.tsv.gz,
+The raw matrix is contained in the files: 
+
+matrix.mtx.gz
+
+barcodes.tsv.gz
+
+features.tsv.gz,
+
 all inside <output path>/raw_matrix. The format of the matrix is compatible with standard downstream analysis tools, e.g., Seurat.
 
 # 4.高级分析Partek Flow software
