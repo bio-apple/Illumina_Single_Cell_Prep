@@ -54,6 +54,10 @@ Up to 15 different IMIs can be created from a single captured molecule generated
 
 **read 2:at least 72 cycles**
 
+个人理解：read 1:BI（3碱基）+read 2:(IMI) 总称为原先的UMI用来去掉PCR冗余带来的影响
+
+![UMI](./UMI.png)
+
 # 9.测序建议
 
 NextSeq 500/550 recommended final library loading concentration 1.6 pM including ≥ 1% PhiX
