@@ -83,3 +83,17 @@ PIPseeker utilizes the STAR package for read alignment. Custom references can be
 ![PIPseqTM V](./PIPseqTM_V.jpg)
 
 [Fontanez K, Agam Y, Bevans S, et al. Intrinsic molecular identifiers enable robust molecular counting in single-cell sequencing[J]. bioRxiv, 2024: 2024.10. 04.616561.](https://www.biorxiv.org/content/10.1101/2024.10.04.616561v1.full)
+
+# Publication
+
+[Hargrove-Wiley E, Obodo D, Bindeman W, et al. Elucidating Sex-Specific Immune Profiles in a Breast Cancer Model[J]. International Journal of Molecular Sciences, 2024, 25(23): 13113.](https://www.mdpi.com/1422-0067/25/23/13113)
+
+[Frazel P W, Fricano-Kugler K, May-Zhang A A, et al. Single-cell analysis of the nervous system at small and large scales with instant partitions[J]. bioRxiv, 2023: 2023.07. 14.549051.](https://www.biorxiv.org/content/10.1101/2023.07.14.549051v2.abstract)
+
+[Huang Y A, Wang X, Kim J C, et al. PIP-seq identifies novel heterogeneous lung innate lymphocyte population activation after combustion product exposure[J]. Scientific Reports, 2024, 14(1): 20167.](https://www.nature.com/articles/s41598-024-70880-y)
+
+[Kim H, Jang B, Zhang C, et al. Targeting stem cells and dysplastic features with dual MEK/ERK and STAT3 suppression in gastric carcinogenesis[J]. Gastroenterology, 2024, 166(1): 117-131.](https://www.sciencedirect.com/science/article/pii/S0016508523050758)
+
+[Lee S H, Won Y, Gibbs D, et al. Amphiregulin switches progenitor cell fate for lineage commitment during gastric mucosal regeneration[J]. Gastroenterology, 2024.](https://www.sciencedirect.com/science/article/pii/S0016508524002907)
+
+[Peretz C A C, Kennedy V E, Walia A, et al. Multiomic single cell sequencing identifies stemlike nature of mixed phenotype acute leukemia[J]. Nature Communications, 2024, 15(1): 8191.](https://www.nature.com/articles/s41467-024-52317-2)
