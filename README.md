@@ -82,7 +82,7 @@ NovaSeq X Series final library loading concentration 190 - 200 pM including ≥ 
 
 # 12.PIPSeeker参考基因组构建
 
-PIPseeker utilizes the STAR package for read alignment. Custom references can be built with STAR v2.7.4a or greater using the --runMode genomeGenerate option, as described in the STAR manual.
+PIPseeker utilizes the STAR package for read alignment. Custom references can be built with STAR v2.7.4a or greater using the **--runMode** genomeGenerate option, as described in the STAR manual.
 
 [details:Instructions for Creating Custom PIPseeker™ References](./PIPInstructions-for-Creating-Custom-PIPseeker-References-1.pdf)
 
