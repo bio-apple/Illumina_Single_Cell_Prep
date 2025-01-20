@@ -58,7 +58,7 @@ Up to 15 different IMIs can be created from a single captured molecule generated
 
 ![UMI](./UMI.png)
 
-数据分析链接：https://help.dragen.illumina.com/product-guides/dragen-v4.4/dragen-single-cell-pipeline/dragen-scrna-pipseq
+DRAGEN数据分析参考链接：https://help.dragen.illumina.com/product-guides/dragen-v4.4/dragen-single-cell-pipeline/dragen-scrna-pipseq
 
 # 9.测序建议
 
