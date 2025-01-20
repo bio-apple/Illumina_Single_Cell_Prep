@@ -58,6 +58,8 @@ Up to 15 different IMIs can be created from a single captured molecule generated
 
 ![UMI](./UMI.png)
 
+数据分析链接：https://help.dragen.illumina.com/product-guides/dragen-v4.4/dragen-single-cell-pipeline/dragen-scrna-pipseq
+
 # 9.测序建议
 
 NextSeq 500/550 recommended final library loading concentration 1.6 pM including ≥ 1% PhiX
