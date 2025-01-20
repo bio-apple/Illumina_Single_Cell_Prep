@@ -40,15 +40,15 @@ The raw matrix is contained in the files:**matrix.mtx.gz**、**barcodes.tsv.gz**
 
 [De Simone M, Hoover J, Lau J, et al. A comprehensive analysis framework for evaluating commercial single-cell RNA sequencing technologies[J]. Nucleic Acids Research, 2024: gkae1186.](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae1186/7924191?login=false)
 
-# 7.测序读长
-
-read 1:at least 45 cycles
-
-read 2:at least 72 cycles
-
 # 8.文库结构
 
 ![library](./library.png)
+
+**read 1:at least 45 cycles**
+
+![Barcode_Identification](./Barcode_Identification.png)
+
+**read 2:at least 72 cycles**
 
 # 9.测序建议
 
@@ -77,6 +77,8 @@ PIPseeker utilizes the STAR package for read alignment. Custom references can be
 [details:Instructions for Creating Custom PIPseeker™ References](./PIPInstructions-for-Creating-Custom-PIPseeker-References-1.pdf)
 
 # 13.经典文章链接
+
+PIP-Seq珠子包含 ~10(964) 个唯一条形码，为标记 100 万个细胞提供了充足的序列空间。
 
 [Clark I C, Fontanez K M, Meltzer R H, et al. Microfluidics-free single-cell genomics with templated emulsification[J]. Nature Biotechnology, 2023, 41(11): 1557-1566.](https://www.nature.com/articles/s41587-023-01685-z)
 
